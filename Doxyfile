@@ -1,0 +1,27 @@
+PROJECT_NAME           = "Decodificador PRT-7"
+PROJECT_NUMBER         = "1.0"
+PROJECT_BRIEF          = "Sistema de decodificación de protocolo industrial PRT-7"
+
+INPUT                  = .
+FILE_PATTERNS          = *.cpp *.h
+RECURSIVE              = NO
+
+OUTPUT_DIRECTORY       = documentacion
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+HAVE_DOT               = NO
+CLASS_DIAGRAMS         = YES
+
+OUTPUT_LANGUAGE        = Spanish
+
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+GENERATE_TREEVIEW      = YES
+
+JAVADOC_AUTOBRIEF      = YES
+QT_AUTOBRIEF           = YES
